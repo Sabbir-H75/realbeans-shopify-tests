@@ -35,8 +35,8 @@ describe('RealBeans Shopify Store Tests', () => {
   // Test 3: Product catalog shows both products
   it('shows both coffee products in catalog', () => {
     cy.visit('/collections/all');
-    cy.contains('RealBeans Roasted Blend').should('be.visible');
-    cy.contains('RealBeans Signature Blend').should('be.visible');
+    cy.contains('Roasted coffee beans 5kg').should('be.visible');
+    cy.contains('Blended coffee 5kg').should('be.visible');
   });
 
   // Test 4: Product details page
