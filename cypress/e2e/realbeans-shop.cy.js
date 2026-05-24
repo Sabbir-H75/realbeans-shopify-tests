@@ -28,7 +28,7 @@ describe('RealBeans Shopify Store Tests', () => {
 
   // Test 2: About page content
   it('displays history paragraph on About page', () => {
-    cy.visit('/pages/about us');
+    cy.visit('/pages/about');
     cy.contains('From a small Antwerp grocery').should('be.visible');
   });
 
